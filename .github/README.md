@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lookoutequipment`](https://www.npmjs.com/package/@aws-sdk/client-lookoutequipment/v/3.1041.0).
+[`@aws-sdk/client-lookoutequipment`](https://www.npmjs.com/package/@aws-sdk/client-lookoutequipment/v/3.1042.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1041.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1042.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-i3GVO21W0rxppqjNXUrUeSWoIF486VrW1bv4TrvbapSH+kt28YX1Aa/+N5sSXcqC
+sha384-WvDBXR9FS609Ht3Mx6hltDNEnT9Rg/DCw/r8sTcnpR6MmMm6ySGy/sEWdcn+Jb3K
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lookoutequipment": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1041.0/index.min.mjs"
+            "@aws-sdk/client-lookoutequipment": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1042.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1041.0/index.min.mjs": "sha384-i3GVO21W0rxppqjNXUrUeSWoIF486VrW1bv4TrvbapSH+kt28YX1Aa/+N5sSXcqC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1042.0/index.min.mjs": "sha384-WvDBXR9FS609Ht3Mx6hltDNEnT9Rg/DCw/r8sTcnpR6MmMm6ySGy/sEWdcn+Jb3K"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lookoutequipment": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1041.0/index.min.mjs"
+                        "@aws-sdk/client-lookoutequipment": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1042.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1041.0/index.min.mjs": "sha384-i3GVO21W0rxppqjNXUrUeSWoIF486VrW1bv4TrvbapSH+kt28YX1Aa/+N5sSXcqC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lookoutequipment@3.1042.0/index.min.mjs": "sha384-WvDBXR9FS609Ht3Mx6hltDNEnT9Rg/DCw/r8sTcnpR6MmMm6ySGy/sEWdcn+Jb3K"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1041.0`)
+* Always pin to a specific version (`@3.1042.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lookoutequipment/blob/refs/tags/3.1041.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lookoutequipment/blob/refs/tags/3.1042.0/LICENSE
 ```
 
 ---
